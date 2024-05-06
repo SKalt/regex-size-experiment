@@ -1,5 +1,5 @@
 {
-  description = ""; # FIXME: add a description
+  description = "regex-size-experiment";
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable"; # TODO: pin
     flake-utils.url = "github:numtide/flake-utils"; # TODO: pin
@@ -54,6 +54,14 @@
               # rust tools
               rust-analyzer-unwrapped
               cargo-bloat
+
+              # go tools
+              go
+              gopls
+
+              # other programming languages
+              python3
+              nodejs_20
 
               # nix support
               nixpkgs-fmt
